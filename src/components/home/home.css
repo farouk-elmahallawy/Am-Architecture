@@ -1,0 +1,71 @@
+
+.first{
+    background-image: url("../../images/fv-min - Copy.jpg");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    width:50%;
+    left:50%;
+}
+.second{
+    position: absolute;
+    right: 80%;
+    height: 100%;
+}
+
+.head{
+    position: absolute; 
+    left: 5%;
+    top: 22.5%;
+    margin: 10px;
+    z-index: 5;
+}
+.head div{
+    padding: 15px;
+    border-radius: 100px 0px 0px 100px;
+    text-align: center;
+    color: white;
+}
+.head div h2{
+    margin:5px;
+}
+.head div p{
+    margin:5px;
+}
+.head1{
+    background-color:#5c96bb ;
+}
+.head2{
+    background-color:#fda820 ;
+}
+.head3{
+    background-color:#f26000 ;
+    content: none;
+}
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.footer span{
+    font-size:80%;
+}
+@media(max-width:767px){
+    .head{
+        position: absolute;
+        left: 1%;
+        top: 20%;
+        margin: 10px;
+        z-index: 1;
+        display: inline-flex;
+        font-size: 70%;
+    }
+    .head div{
+        border-radius: 100px 100px 0px 0px;
+        max-width:200px;
+    }
+    .head div h2{
+        font-size:18px;
+    }
+}

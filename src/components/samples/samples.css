@@ -1,0 +1,10 @@
+.kalam{
+    display: inline-flex;
+    background-color: #DDD;
+    color:#F00;
+    border: solid 2px;
+    margin:5px;
+}
+.w-100{
+    height:600px;
+}

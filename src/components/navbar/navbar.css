@@ -1,0 +1,28 @@
+.bg-light{
+    background-color: silver !important;
+    z-index: 2;
+}
+.logo{
+    color:white;
+    font-size: 22px;
+    font-weight: 600;
+}
+.logo:hover{
+    text-decoration: none;
+    color:black
+}
+.logo:hover  span{
+    color:red
+}
+.logo span{
+    font-size:60%;
+}
+.nav-item{
+    margin-right: 20px;
+    color:white;
+    font-size: 18px;
+}
+.nav-item:hover{
+    text-decoration: none;
+    color:black;
+}
