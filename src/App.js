@@ -11,7 +11,7 @@ import Ahmed from './components/about/ahmed.js'
 class App extends React.Component {
   render(){
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
           <Navbaricon/>
           <Switch>
