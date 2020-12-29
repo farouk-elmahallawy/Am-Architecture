@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbaricon from './components/navbar/navbar.js'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/home/home'
 import Samples from './components/samples/samples'
 import About from './components/about/about.js'
@@ -11,7 +11,7 @@ import Ahmed from './components/about/ahmed.js'
 class App extends React.Component {
   render(){
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
           <Navbaricon/>
           <Switch>
@@ -22,7 +22,7 @@ class App extends React.Component {
             <Route path = '/About_us/Ahmed' component= {Ahmed} />
           </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
       );
 }
 }
